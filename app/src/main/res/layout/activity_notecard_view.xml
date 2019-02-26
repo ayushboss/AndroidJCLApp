@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ayushcoding.www.jclapp.NotecardView"
+    android:id="@+id/notecardView">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarNotes"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Notecards"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Question"
+        android:id="@+id/tvQuestion"
+        android:layout_below="@+id/toolbarNotes"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Answer goes here!"
+        android:id="@+id/tvAnswer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteIcon"
+        android:layout_below="@+id/tvAnswer"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_action_name"
+        android:layout_alignRight="@+id/tvQuestion"
+        android:layout_alignEnd="@+id/tvQuestion"
+        android:layout_alignLeft="@+id/tvQuestion"
+        android:layout_alignStart="@+id/tvQuestion" />
+</RelativeLayout>

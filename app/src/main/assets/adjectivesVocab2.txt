@@ -1,0 +1,78 @@
+Aeger, aegra, aegrum --sick, ill
+ --
+Celer, celeris --swift, fast
+ --
+Commodus, commoda, commodum --proper, fit, suitable
+ --
+Dexter, dextra, dextrum --right
+ --
+Difficilis, difficilis, difficile --difficult
+ --
+Dissimilis, dissimilis, dissimile --unlike
+ --
+Facilis, facilis, facile --easy
+ --
+Fidelis, fidelis, fidele --faithful
+ --
+finitimus, finitima, finitimum --neighboring
+ --
+Gravis, gravis, grave --heavy, serious
+ --
+Ingens, ingentis --huge
+ --
+Inimicus, inimical, inimicum --unfriendly
+ --
+Invitus, invita, invitum --unwilling
+ --
+Iratus, irata, iratum -- angry
+ --
+Laetus, laeta, lautum --happy
+ --
+Liber, libera, liberum --free
+ --
+Maximus, maxima, maximum --biggest, greatest
+ --
+Medius, media, medium --in the middle of
+ --
+Meus, mea, meum --my, mine
+ --
+Miser, misera, miserum --unhappy, sad
+ --
+necesse --necessary
+ --
+Negligens, negligentis --careless
+ --
+Nobilis, nobilis, nobile --noble
+ --
+Notus, nota, notum --well, known, famous
+ --
+Omnis, omnis, omne --each, every, all
+ --
+Par, paris --equal
+ --
+Paratus, parata, paratum --prepared
+ --
+Pauci, paucae, pauca --few
+ --
+Pessimus, pessima, pessimum --worst
+ --
+Plenus, plena, plenum -- full
+ --
+Plurimus, plurimi, plurimum --very many
+ --
+Publicus, publica, publicum -- public
+ --
+Sacer, sacra, sacrum --sacred
+ --
+Similis, similis, simile --similar
+ --
+Sinister, sinistra, sinistrum --left
+ --
+Solus, sola, solum --alone
+ --
+Timidus, timida, timidum -- afraid
+ --
+Totus, tota, totum --whole
+ --
+Verus, vera, verum -- true
+ --

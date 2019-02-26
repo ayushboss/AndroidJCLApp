@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar_actionbar"
+                layout="@layout/toolbar_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fillViewport="true"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/rHSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+
+                        android:theme="@style/MyButton"
+                        android:gravity="center"
+                        android:text="Roman History"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/gMSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rHSegue"
+                        android:theme="@style/MyButtonMyth"
+                        android:gravity="center"
+                        android:text="Greek Mythology"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/rLifeSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/gMSegue"
+                        android:theme="@style/MyButtonLife"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:text="Roman Life"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/gramSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rLifeSegue"
+                        android:theme="@style/MyButtonGrammar"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:text="Grammar"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/llSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/textView"
+                        android:layout_centerHorizontal="true"
+                        android:autoText="true"
+                        android:theme="@style/MyButtonLit"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:text="Latin Literature"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/mottoesSegue"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:autoText="true"
+                        android:theme="@style/MyButtonMotto"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:text="Mottoes, Abbreviations, and Quotes"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/vocabSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/textView3"
+                        android:layout_centerHorizontal="true"
+                        android:allowUndo="false"
+                        android:autoText="true"
+                        android:textColor="#ffffff"
+                        android:theme="@style/MyButtonVocab"
+                        android:gravity="center"
+                        android:text="Vocabulary"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/certamenSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:allowUndo="false"
+                        android:autoText="true"
+                        android:theme="@style/MyButton"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:text="Certamen"
+
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+        <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
+
+
+
+    </android.support.v4.widget.DrawerLayout>

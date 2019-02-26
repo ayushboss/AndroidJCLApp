@@ -1,0 +1,119 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ayushcoding.www.jclapp.RLifeSelectGuide">
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarRlSelect"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:title="Roman Life Study Guide"
+    android:background="?attr/colorPrimary"
+    app:titleTextColor="@color/primary_text"
+    />
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:theme="@style/MyButtonLife"
+      android:textColor="#FFFFFF"
+      android:id="@+id/Rlife1"
+
+      android:text="Public Buildings"
+
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/Rlife2"
+        android:theme="@style/MyButtonLife"
+        android:textColor="#FFFFFF"
+        android:text="Government"
+        android:layout_below="@+id/Rlife1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/MyButtonLife"
+        android:textColor="#FFFFFF"
+        android:id="@+id/sp"
+        android:layout_below="@+id/Rlife2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Sports" />
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:id="@+id/name"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true"
+          android:theme="@style/MyButtonLife"
+          android:textColor="#FFFFFF"
+          android:layout_below="@+id/food"
+          android:text="Names And Clothing"
+          android:paddingTop="-10dp" />
+
+      <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/rel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+          android:theme="@style/MyButtonLife"
+          android:textColor="#FFFFFF"
+        android:layout_below="@+id/name"
+        android:text="Religion" />
+
+      <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/mis"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+          android:theme="@style/MyButtonLife"
+          android:textColor="#FFFFFF"
+        android:layout_below="@+id/rel"
+        android:text="Misc." />
+
+      <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/food"
+          android:theme="@style/MyButtonLife"
+          android:textColor="#FFFFFF"
+        android:text="Food"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp" />
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>

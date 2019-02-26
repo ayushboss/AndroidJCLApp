@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets_array">
+        <item value="59">Alabama</item>
+            <item value="58">Alaska</item>
+            <item value="61">Arizona</item>
+            <item value="60">Arkansas</item>
+            <item value="63">California</item>
+            <item value="64">Colorado</item>
+            <item value="65">Connecticut</item>
+            <item value="67">Delaware</item>
+            <item value="66">District of Columbia</item>
+            <item value="68">Florida</item>
+            <item value="69">Georgia</item>
+            <item value="71">Hawaii</item>
+            <item value="73">Idaho</item>
+            <item value="74">Illinois</item>
+            <item value="75">Indiana</item>
+            <item value="72">Iowa</item>
+            <item value="78">Kansas</item>
+            <item value="79">Kentucky</item>
+            <item value="80">Louisiana</item>
+            <item value="83">Maine</item>
+            <item value="82">Maryland</item>
+            <item value="81">Massachusetts</item>
+            <item value="84">Michigan</item>
+            <item value="85">Minnesota</item>
+            <item value="87">Mississippi</item>
+            <item value="86">Missouri</item>
+            <item value="88">Montana</item>
+            <item value="91">Nebraska</item>
+            <item value="95">Nevada</item>
+            <item value="92">New Hampshire</item>
+            <item value="93">New Jersey</item>
+            <item value="94">New Mexico</item>
+            <item value="96">New York</item>
+            <item value="89">North Carolina</item>
+            <item value="90">North Dakota</item>
+            <item value="97">Ohio</item>
+            <item value="98">Oklahoma</item>
+            <item value="100">Oregon</item>
+            <item value="101">Pennsylvania</item>
+            <item value="103">Rhode Island</item>
+            <item value="104">South Carolina</item>
+            <item value="105">South Dakota</item>
+            <item value="106">Tennessee</item>
+            <item value="107">Texas</item>
+            <item value="108">Utah</item>
+            <item value="110">Vermont</item>
+            <item value="109">Virginia</item>
+            <item value="111">Washington</item>
+            <item value="113">West Virginia</item>
+            <item value="112">Wisconsin</item>
+            <item value="114">Wyoming</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,136 @@
+Absum, abesse, afui, afuturus -- be absent, be away
+ --
+Adsum, adesse, adfui, adfuturus -- be present, be here
+ --
+Amitto, amittere, amisi, amissus -- lose
+ --
+Ascendo, ascendere, ascendi, ascensus -- climb
+ --
+Audeo, audere, ausus sum -- dare
+ --
+Caedo, caedere, cecidi, caesus -- cut, strike, kill
+ --
+Claudo, claudere, clausi, clausus -- shut, close
+ --
+Coepi, coepisse, coeptus -- begin
+ --
+Cogito, cogitare, cogitavi, cogitatus -- think
+ --
+Cognosco, cognoscere, cognovi, cognitus -- recognize, know
+ --
+Cogo, cogere, coegi, coactus -- gather, compel
+ --
+Conficio, conficere, confeci, confectus -- complete
+ --
+Convoco, convocare, convocavi, convocatus -- call a meeting
+ --
+Credo, credere, credidi, creditus -- believe, trust
+ --
+Deleo, delere, delevi, deletus -- destroy
+ --
+Derideo, deridere, derisi, derisus -- mock, make fun of
+ --
+Doleo, dolere, dolui, dolitus -- to be in pain, grieve
+ --
+Dubito, dubitare, dubitavi, dubitatus -- hesitate, doubt
+ --
+Eo, ire,ii, itus -- go
+ --
+Excito, excitare, excitavi, excitatus -- wake up
+ --
+Existimo, existimare, existimavi, existimatus -- think
+ --
+Exspecto, exspectare, exspectavi, exspectatus -- wait for
+ --
+Faveo, favere, favi, fautus -- favor, support
+ --
+Fero, ferre, tuli, latus -- carry
+ --
+Fluo, fluere, fluxi, fluctus -- flow
+ --
+Frango, frangere, fregi, fractus -- break
+ --
+Gaudeo, gaudere, gavisus sum -- rejoice
+ --
+Hareo, haerere, haesi, haesus -- cling, stick
+ --
+Iaceo, iacere, iacui -- lie down
+ --
+Impedio, impedire, impedivi, impeditus -- hinder
+ --
+Incipio, incipere, incepi, inceptus -- begin
+ --
+Interficio, interficere, interfeci, interfectus -- kill
+ --
+Iubeo, iubere, iussi, iussus -- order
+ --
+Lavo, lavare, lavi, lautus -- wash
+ --
+Narro, narrare, narravi, narratus -- tell
+ --
+Neco, necare, necavi, necatus -- kill
+ --
+Nescio, nescire, nescivi, nescitus -- not know
+ --
+Noceo, nocere, nocui, nocitus -- harm
+ --
+Nolo, nolle, nolui -- not want
+ --
+Numero, numerare, numeravi, numeratus -- count
+ --
+Occupo, occupare, occupavi, occupatus -- seize
+ --
+Ostendo, ostendere, ostendi, ostentus -- show
+ --
+Pereo, perire, perii, peritus -- perish, die
+ --
+Persuadeo, persuadere, persuasi, persuasus -- persuade
+ --
+Pervenio, pervenire, perveni, perventus -- reach, arrive
+ --
+Peto, petere, petivi, petitus -- search for, head for, attack
+ --
+posco, poscere, poposci -- demand
+ --
+Praesum, praeesse, praefui -- be in command
+ --
+Propero, properare, properavi, properatus -- hasten, hurry
+ --
+Punio, punire, punivi, punitus -- punish
+ --
+Recipio, recipere, recepi, receptus -- take back, accept
+ --
+Rego, regere, rexi, rectus -- rule
+ --
+Repello, repellere, repulse, repulses -- drive back
+ --
+Respondeo, respondere, respondi, responsus -- respond, reply
+ --
+Retineo, retinere, retinui, retentus -- retain, keep
+ --
+Sedeo, sedere, sedi, sessus -- sit
+ --
+Sentio, sentire, sensi, sensus -- feel
+ --
+Soleo, solere, solitus sum -- be accustomed
+ --
+Spero, sperare, speravi, speratus -- hope
+ --
+Supero, superare, superavi, superatus -- defeat, surpass
+ --
+Supersum, superesse, superfui -- remain, survive
+ --
+Tempto, temptare, temptavi, temptatus -- try
+ --
+Tollo, tollere, sustuli, sublatus -- raise, lift
+ --
+Valeo, valere, valui -- be well
+ --
+Vexo, vexare, vexavi, vexatus -- annoy
+ --
+Vinco, vincere, vici, victus -- conquer
+ --
+Vivo, vivere, vixi, victus -- live
+ --
+Volo, velle, volui -- want
+ --

@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.ayushcoding.www.jclapp.RomanHistoryQuiz">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarRHQ"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Roman History Quiz"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        >
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/questionMyth"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Question"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:clickable="false"
+        android:theme="@style/MyButtonMyth"
+        android:autoText="false" />
+
+    <TextView
+        android:id="@+id/opt1RH"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/questionMyth"
+        android:layout_marginTop="85dp"
+        android:text="New Text"
+        android:layout_gravity="center"
+        android:background="@color/rhQuiz"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/opt3RH"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/opt2RH"
+        android:text="New Text"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:background="@color/rhQuiz"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/opt4RH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="New Text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:autoText="false"
+        android:textColor="#ffffff"
+        android:background="@color/rhQuiz"
+        android:gravity="center_vertical|center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/opt2RH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/opt1RH"
+        android:text="New Text"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/rhQuiz"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/buttonMyth"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:theme="@style/MyButtonMyth"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:theme="@style/MyButtonMyth"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#ffffff"
+        android:id="@+id/button2Myth"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#ffffff"
+        android:theme="@style/MyButtonMyth"
+        android:id="@+id/button3Myth"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button4Myth"
+        android:theme="@style/MyButtonMyth"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pinQuestionMyth"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_action_star"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:theme="@style/xyellow" />
+</LinearLayout>
+</LinearLayout>

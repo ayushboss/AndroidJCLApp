@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.ayushcoding.www.jclapp.RomanStudyGuideSelect">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Vocabulary Study Guides"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        >
+    </android.support.v7.widget.Toolbar>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="Vocabulary I"
+        android:id="@+id/fstConjugation"
+        android:layout_weight="1"
+        android:theme="@style/vQuiz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentEnd="true"
+        android:elegantTextHeight="false"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="Vocabulary II"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:id="@+id/conjugation2"
+        android:elegantTextHeight="false"
+        android:theme="@style/vQuiz"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Vocabulary III+"
+        android:id="@+id/v3"
+        android:layout_weight="1"
+        android:layout_marginTop="0dp"
+        android:elegantTextHeight="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:theme="@style/vQuiz"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

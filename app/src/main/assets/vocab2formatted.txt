@@ -1,0 +1,118 @@
+Arma, armorum, N. -- arms
+ --
+Auris, auris, F. -- ear
+ --
+Aurum, auri, N. -- gold
+ --
+Bellum, belli, N. -- war
+ --
+Campus, campi M. -- field, plain
+ --
+Caput, capitis, N. -- head
+ --
+Carmen, carminis, N. -- song
+ --
+Casus, casus, M. -- fall, downfall, event, misfortune, death
+ --
+Causa, causae, F. -- cause
+ --
+Copia, copiae F. -- plenty, supply, pl. troops
+ --
+Coquus, coqui M. -- cook
+ --
+Custos, custodis, M -- guard
+ --
+Donum, doni, N -- gift
+ --
+Exercitus, exercitus, M -- army
+ --
+Fortuna, fortunae F. -- fortune
+ --
+Fama, famae, f. -- rumor, reputation
+ --
+flos, floris, M. -- flower
+ --
+gens, gentis, M. -- race, clan, tribe
+ --
+genus, generis, N. --birth, descent, class
+ --
+gratia, gratiae, F. -- charm, influence, thanks
+ --
+hasta, hastae, F. -- spear
+ --
+hora, horae, F. -- hour
+ --
+hospes, hospitis, M. -- host, guest
+ --
+ignis, ignis, M. -- fire
+ --
+imber, imbris, M. -- rain
+ --
+impedimentum, impedimenti, N. -- hindrance, obstacle; (pl) baggage
+ --
+impetus, impetus, M. -- attack
+ --
+iniuria, iniuriae F. -- wrong, injury
+ --
+insula, insulae, F. -- island, apartment building
+ --
+ius, iuris, N. -- law, right, justice
+ --
+legatus, legati, M. -- envoy
+ --
+libertas, libertatis, F. -- freedom
+ --
+lingua, lingae, F. -- tongue, language
+ --
+litus, literis, n. -- shore, seashore
+ --
+locus, loci, M. -- place
+ --
+luna, lunae, F. -- moon
+ --
+magister, magistri, M. -- master, chief, director
+ --
+mare,maris, N. -- sea
+ --
+maritus, mariti, M. -- husband
+ --
+memoria, memoriae F. -- memory
+ --
+mons, montis, M. -- mountain
+ --
+multitudo, multitudinis, f. -- crowd
+ --
+natura, naturae, F. -- nature
+ --
+nemo, neminis, m. -- no one
+ --
+nuntius, nuntii, M. -- messenger
+ --
+ordo, ordinis, M. -- row, line
+ --
+populus, populi, M. -- people
+ --
+plaustrum, plaustri, N. -- cart, wagon
+ --
+poena, poenae, F -- punishment
+ --
+poeta, poetae, M. -- poet
+ --
+porta, portae, F. -- gate
+ --
+princeps, principis, M. -- chief, emperor, leader
+ --
+proelium, proelii, N. -- battle
+ --
+pugna, pugnae F. -- fight, battle
+ --
+regnum, regni, N. -- kingdom
+ --
+Sonitus, sonitus, M., -- sound
+ --
+Turba, turbae, F. -- crowd
+ --
+Uxor, uxoris, F. -- wife
+ --
+Vulnus, vulneris, N. -- wound
+ --

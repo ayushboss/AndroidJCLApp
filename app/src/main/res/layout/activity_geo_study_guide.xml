@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ayushcoding.www.jclapp.GeoStudyGuide">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary">
+        </android.support.v7.widget.Toolbar>
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:access_token="pk.eyJ1IjoiaW50c3R1ZGlvIiwiYSI6ImNpbnQ3b2phODExMzh1YW0zc3JpZGE3bTAifQ.GTQitwnZ64Ncg5oz7DrDdw"
+            mapbox:style_url="mapbox://styles/mapbox/streets-v9"
+            mapbox:center_latitude="46.88   "
+            mapbox:center_longitude="19.68"
+            mapbox:zoom="3"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">The JCL App</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test_selection">Test Selection</string>
+
+    <string name="hello_world">0:00</string>
+    <string name="title_activity_roman_history_quiz">RomanHistoryQuiz</string>
+    <string name="title_activity_roman_history_result">RomanHistoryResult</string>
+    <string name="title_activity_performance">Performance</string>
+    <string name="title_activity_greek_mythology_quiz">GreekMythologyQuiz</string>
+    <string name="title_activity_greek_mythology_result">GreekMythologyResult</string>
+    <string name="title_activity_grammar_quiz">GrammarQuiz</string>
+    <string name="title_activity_grammar_result">GrammarResult</string>
+    <string name="title_activity_roman_life_quiz">RomanLifeQuiz</string>
+    <string name="title_activity_roman_life_result">RomanLifeResult</string>
+    <string name="title_activity_study_guides">Study Guides</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_geo_study_guide">GeoStudyGuide</string>
+    <string name="title_activity_cities">Cities</string>
+    <string name="title_activity_latin_lit_quiz">LatinLitQuiz</string>
+    <string name="title_activity_latin_lit_result">LatinLitResult</string>
+    <string name="title_activity_roman_study_guide_select">RomanStudyGuideSelect</string>
+    <string name="title_activity_monarchy"> </string>
+    <string name="title_activity_conjugation1">Conjugation1</string>
+    <string name="title_activity_vocab_select">VocabSelect</string>
+    <string name="title_activity_conjugation2">Conjugation2</string>
+    <string name="title_activity_mottoes_select">MottoesSelect</string>
+    <string name="title_activity_phrases">Phrases</string>
+    <string name="title_activity_mottoes">Mottoes</string>
+    <string name="title_activity_abbreviations">Abbreviations</string>
+<string name="notifStringPref"></string>
+<string name="userWantsNotif"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_swipe_mottoes">SwipeMottoes</string>
+    <string name="title_activity_latin_literature_study_guide">LatinLiteratureStudyGuide</string>
+    <string name="title_activity_public_buildings">PublicBuildings</string>
+    <string name="title_activity_government">Government</string>
+    <string name="title_activity_sports">Sports</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_names_and_clothing">NamesAndClothing</string>
+    <string name="title_activity_religion">Religion</string>
+    <string name="title_activity_miscellaneous">Miscellaneous</string>
+    <string name="title_activity_rlife_select_guide">RLifeSelectGuid</string>
+    <string name="title_activity_mottoes_quiz">MottoesQuiz</string>
+    <string name="title_activity_empire"> </string>
+    <string name="title_activity_redits">redits</string>
+    <string name="title_activity_credits">Credits</string>
+</resources>

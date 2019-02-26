@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ayushcoding.www.jclapp.Credits">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarCredits"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Credits"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        />
+
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="0dp"
+        android:paddingTop="16dp"
+        android:layout_below="@+id/toolbarCredits"
+        android:scrollbars="vertical"
+        />
+
+</RelativeLayout>

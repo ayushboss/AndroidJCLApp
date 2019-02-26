@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.ayushcoding.www.jclapp.RomanHistoryQuiz">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarMottoes"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Mottoes Quiz"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        >
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context="com.ayushcoding.www.jclapp.RomanHistoryQuiz"
+        >
+    <Button
+        android:id="@+id/questionMo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Question"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:clickable="false"
+        android:theme="@style/MyButtonMotto"
+        android:autoText="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/Mo1"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:theme="@style/MyButtonMotto"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:theme="@style/MyButtonMotto"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/Mo2"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#ffffff"
+        android:theme="@style/MyButtonMotto"
+        android:id="@+id/Mo3"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#ffffff"
+        android:id="@+id/Mo4"
+        android:theme="@style/MyButtonMotto"
+        android:layout_marginTop="25dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pinQuestionMo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_action_star"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:theme="@style/xyellow" />
+</LinearLayout>
+</LinearLayout>

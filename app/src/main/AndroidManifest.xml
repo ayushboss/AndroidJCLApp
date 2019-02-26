@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ayushcoding.www.jclapp">
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="20"
+        tools:overrideLibrary="com.ramotion.paperonboarding" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestSelection"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.TestSelection" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Performance"
+            android:configChanges="orientation"
+            android:label="Performance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Performance" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RomanHistoryQuiz"
+            android:configChanges="orientation"
+            android:label="Roman History Quiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.RomanHistoryQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GreekMythologyQuiz"
+            android:configChanges="orientation"
+            android:label="Mythology Quiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GreekMythologyQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RomanHistoryResult"
+            android:configChanges="orientation"
+            android:label="Roman History Quiz"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".GreekMythologyResult"
+            android:configChanges="orientation"
+            android:label="Mythology Quiz Results"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".GrammarQuiz"
+            android:label="Grammar Quiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GrammarQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GrammarResult"
+            android:label="Grammar Quiz Results" />
+        <activity
+            android:name=".RomanLifeQuiz"
+            android:label="Roman Life Quiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.RomanLifeQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RomanLifeResult"
+            android:label="Roman Life Quiz Results" />
+        <activity
+            android:name=".StudyGuides"
+            android:label="Study Guides">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.StudyGuides" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeoSelect"
+            android:label="Region Selection">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GeoSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity
+            android:name=".GeoStudyGuide"
+            android:label="Ancient Geography Study Guide">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GeoStudyGuide" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.GeoSelect" />
+        </activity>
+        <activity
+            android:name=".Cities"
+            android:label="Ancient Cities">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Cities" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.GeoSelect" />
+        </activity>
+        <activity
+            android:name=".LatinLitQuiz"
+            android:label="Latin Literature Quiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.LatinLitQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LatinLitResult"
+            android:label="Latin Literature Quiz Results" />
+        <activity
+            android:name=".RomanStudyGuideSelect"
+            android:label="@string/title_activity_roman_study_guide_select">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.RomanStudyGuideSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity
+            android:name=".Monarchy"
+            android:label="@string/title_activity_monarchy">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Monarchy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RomanStudyGuideSelect" />
+        </activity>
+        <activity
+            android:name=".Conjugation1"
+            android:label="@string/title_activity_conjugation1">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conjugation1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.VocabSelect" />
+        </activity>
+        <activity
+            android:name=".VocabSelect"
+            android:label="@string/title_activity_vocab_select">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.VocabSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity
+            android:name=".Conjugation2"
+            android:label="@string/title_activity_conjugation2">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conjugation2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.VocabSelect" />
+        </activity>
+        <activity
+            android:name=".MottoesSelect"
+            android:label="@string/title_activity_mottoes_select">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.MottoesSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Phrases"
+            android:label="Mottoes">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Phrases" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mottoes"
+            android:label="@string/title_activity_mottoes">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Mottoes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Abbreviations"
+            android:label="@string/title_activity_abbreviations">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Abbreviations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SwipeMottoes"
+            android:label="@string/title_activity_swipe_mottoes">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.SwipeMottoes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity
+            android:name=".PublicBuildings"
+            android:label="@string/title_activity_public_buildings">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.PublicBuildings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".Government"
+            android:label="@string/title_activity_government">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Government" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".Sports"
+            android:label="@string/title_activity_sports">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Sports" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".Food"
+            android:label="@string/title_activity_food">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Food" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".NamesAndClothing"
+            android:label="@string/title_activity_names_and_clothing">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.NamesAndClothing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".Religion"
+            android:label="@string/title_activity_religion">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Religion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".Miscellaneous"
+            android:label="@string/title_activity_miscellaneous">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Miscellaneous" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RLifeSelectGuide" />
+        </activity>
+        <activity
+            android:name=".RLifeSelectGuide"
+            android:label="@string/title_activity_rlife_select_guide">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.RomanLifeSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity android:name=".Notecards">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Notecards" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity android:name=".NotecardView">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.NotecardView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.Notecards" />
+        </activity>
+        <activity android:name=".Republic">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Republic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RomanStudyGuideSelect" />
+        </activity>
+        <activity android:name=".Tutorial">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Tutorial" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Certamen">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Certamen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vocab3">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Vocab3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.VocabSelect" />
+        </activity>
+        <activity android:name=".GreekDerivatives">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GreekDerivatives" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity android:name=".MythologyStudyGuide">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.MythologyStudyGuide" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LitStudyGuide">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.LitStudyGuide" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Empire"
+            android:label="@string/title_activity_empire">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Empire" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.RomanStudyGuideSelect" />
+        </activity>
+        <activity
+            android:name=".Credits"
+            android:label="@string/title_activity_credits">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Credits" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GrammarSelect">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.GrammarSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ayushcoding.www.jclapp.StudyGuides" />
+        </activity>
+        <activity android:name=".Grammar1">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.G1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conj1">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conj1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Charts">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Charts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conj2">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conj2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conj3">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conj3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conj3io">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conj3io" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conj4">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Conj4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Competitions">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Competitions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VocabQuiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.VocabQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MottoesQuiz"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.MottoesQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Convention">
+            <intent-filter>
+                <action android:name="com.ayushcoding.www.jclapp.Convention" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VocabResult" />
+        <activity android:name=".notificationActivity"></activity>
+    </application>
+
+</manifest>

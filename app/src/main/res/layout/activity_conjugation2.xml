@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vocab1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.ayushcoding.www.jclapp.RomanStudyGuideSelect">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarV2"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Vocabulary 2"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/primary_text"
+        >
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/v2recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="0dp"
+        android:paddingTop="16dp"
+        android:layout_below="@+id/toolbarV2"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

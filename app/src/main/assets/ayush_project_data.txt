@@ -1,0 +1,229 @@
+ambulo, ambulare, ambulavi, ambulatus -- walk --
+amo, amare, amavi, amatus -- love --
+appropinquo, appropinquare, appropinquavi, appropinquatus -- approach --
+clamo, clamare, clamavi, clamatus -- shout --
+curo, curare, curavi, curatus --- take care of, look after --
+demonstro, demonstrare, demonstravi, demonstratus -- demonstrate, show --
+do, dare, dedi, datus -- give --
+dono, donare, donavi, donatus -- give --
+festino, festinare, festinavi, festinatus -- hurry --
+habito, habitare, habitavi, habitatus -- live --
+incito, incitare, incitavi, incitatus -- urge on, arouse --
+intro, intrare, intravi, intratus -- enter --
+laboro, laborare, laboravi, laboratus -- work --
+laudo, laudare, laudavi, laudatus -- praise --
+libero, liberare, liberavi, liberatus -- free --
+navigo, navigare, navigavi, navigatus -- sail --
+nuntio, nuntiare, nuntiavi, nuntiatus -- announce --
+paro, parare, paravi, paratus -- prepare --
+porto, portare, portavi, portatus -- carry --
+pugno, pugnare, pugnavi, pugnatus -- fight --
+rogo, rogare, rogavi, rogatus -- ask --
+servo, servare, servavi, servatus -- save, protect, guard --
+specto, spectare, spectavi, spectatus -- watch --
+sto, stare, steti, status -- stand --
+vito, vitare, vitavi, vitatus -- avoid --
+voco, vocare, vocavi, vocatus -- call --
+vulnero, vulnerare, vulneravi, vulneratus -- wound --
+appareo, apparēre, apparui, appariturus -- appear --
+augeo, augēre, auxi, auctus -- increase --
+debeo, debēre, debui, debitus -- owe, ought --
+doceo, docēre, docui, doctus -- teach --
+habeo, habēre, habui, habitus -- have --
+maneo, manēre, mansi, mansurus -- remain --
+moneo, monēre, monui, monitus -- warn --
+moveo, movēre, movi, motus -- move --
+rideo, ridēre, risi, risus -- laugh, smile --
+teneo, tenēre, tenui, tentus -- hold --
+terreo, terrēre, terrui, territus -- frighten, scare --
+timeo, timēre, timui -- be afraid (of), fear --
+video, vidēre, vidi, visus -- see --
+ago, agere, egi, actus -- do, drive, live, spend, discuss --
+amitto, amittere, amisi, amissus -- lose, let go --
+cado, cadere, cecidi, casus -- fall --
+cedo, cedere, cessi, cessurus -- yield, move --
+curro, currere, cucurri, cursus -- run --
+discedo, discedere, discessi, discessurus -- leave, depart --
+dico, dicere, dixi, dictus -- say --
+duco, ducere, duxi, ductus -- lead --
+gero, gerere, gessi, gestus -- carry on, wear --
+lego, legere, legi, lectus -- read, choose, gather --
+mitto, mittere, misi, missus -- send --
+pono, ponere, posui, positus -- place --
+relinquo, relinquere, reliqui, relictus -- leave, leave behind --
+scribo, scribere, scripsi, scriptus -- write --
+surgo, surgere, surrexi, surrecturus -- rise, get up --
+tango, tangere, tetigi, tactus -- touch --
+trado, tradere, tradidi, traditus -- hand over, surrender --
+traho, trahere, traxi, tractus -- drag, pull --
+verto, vertere, verti, versus -- turn --
+accipio, accipere, accepi, acceptus -- receive --
+aperio, aperere, aperui, apertus -- open --
+capio, capere, cepi, captus -- take --
+cupio, cupere, cupivi, cupitus -- desire --
+facio, facere, feci, factus -- do, make --
+fugio, fugere, fūgi, fugiturus -- flee --
+iacio, iacere, ieci, iactus -- throw --
+advenio, advenire, advēni, adventus -- arrive --
+audio, audire, audivi, auditus -- hear --
+dormio, dormire, dormivi, dormitus -- sleep --
+custodio, custodire, custodivi, custoditus -- guard --
+invenio, invenire, invēni, inventus -- find --
+munio, munire, munivi, munitus -- fortify, build --
+scio, scire, scivi, scitus -- know --
+venio, venire, vēni, ventus -- come --
+sum, esse, fui, futurus -- be --
+possum, posse, potui -- be able --
+agricola, agricolae, M. -- farmer --
+amicitia, amicitiae, F. -- friendship --
+aqua, aquae, F. -- water --
+casa, casae, F. - house --
+cena, cenae, F. -- dinner --
+cura, curae, F. -- care, concern --
+dea, deae F. - goddess --
+fabula, fabulae, F. -- story --
+familia, familiae, F. -- family --
+femina, feminae, F. -- woman --
+fenestra, fenestrae, F. -- window --
+filia, filiae, F. -- daughter --
+ianua, ianuae, F. -- door --
+insula, insulae, F. -- island, apartment house --
+ira, irae, F -- anger --
+littera, litterae, F. -- letter --
+nauta, nautae, M -- sailor --
+patria, patriae, F. -- country, native land --
+pecunia, pecuniae, F. -- money --
+puella, puellae, F. -- girl --
+regina, reginae, F. -- queen --
+silva, silvae, F. woods, forest --
+terra, terrae, F. -- earth --
+unda, undae, F. -- wave --
+via, viae, F. -- road, street --
+villa, villae, F. -- farmhouse, estate, house --
+vita, vitae, F. -- life --
+aedificium, aedificii, N -- building --
+ager, agri, M. -- field --
+amicus, amici, M. -- friend --
+animus, animi, M. -- mind, spirit --
+annus, anni, M. -- year --
+auxilium, auxili, N. -- help --
+baculum, baculi, N. -- stick --
+bellum, belli, N. -- war --
+caelum, caeli, N -- sky --
+captivus, captivi, M. -- prisoner --
+carrus, carri, M. -- cart, wagon --
+castra, castrorum, N. -- camp --
+cibus, cibi, M. -- food --
+consilium, consili, N. -- plan --
+cubiculum, cubicula, N --
+deus, dei, M. -- god --
+dominus, domini, M. -- master --
+equus, equi, M. -- horse --
+filius, filii, M. -- son --
+frumentum, frumenti, N -- grain --
+gladius, gladii, M. -- sword --
+inimicus, inimici, M. -- enemy --
+lectus, lecti, M. -- bed, couch --
+liber, libri, M. -- book --
+liberi, liberorum, pl, M. -- children --
+lupus, lupi, M. -- wolf --
+oculus, oculi, M. -- eye --
+oppidum, oppidi, N -- town --
+numerus, numeri, M -- number --
+puer, pueri, M. -- boy --
+periculum, periculi, N -- danger --
+praemium, praemi, N -- reward --
+ramus, rami, M. -- branch --
+rivus, rivi, M. -- stream --
+servus, servi, M. -- slave --
+signum, signi, N. -- sign, signal --
+socius, socii, M. -- comrade, ally --
+templum, templi, N -- temple --
+verbum, verbi, N -- word --
+vilicus, vilici, M. -- overseer --
+vir, viri, M. -- man --
+aestas, aestatis, F. -- summer --
+arbor, arboris, F. -- tree --
+ars, artis, F -- skill, art --
+canis, canis, M/F -- dog --
+caput, capitis, N. -- head --
+civis, civis, M. -- citizen --
+corpus, corporis, N. -- body --
+dux, ducis, M. -- leader, general --
+flumen, fluminis, N. -- river --
+frater, fratris, M. -- brother --
+hiems, hiemis, F. -- winter --
+homo, hominis, M. -- man --
+hostis, hostis, M. -- enemy --
+iter, itineris, N. -- journey --
+lapis, lapidis, M. -- stone --
+lex, legis, F. -- law --
+lux, lucis, F. -- light --
+mater, matris, F. -- mother --
+miles, militis, M. -- soldier --
+mors, mortis, F. -- death --
+navis, navis, F -- ship --
+nomen, nominis, N. -- name --
+nox, noctis, F. -- night --
+onus, oneris, N. -- load, burden --
+pars, partis, F -- part --
+pater, patris, M. -- father --
+pax, pacis, F. -- peace --
+pes, pedis, M. -- foot --
+pons, pontis, M. -- bridge --
+rex, regis, M. -- king --
+senator, senatoris, M. -- senator --
+soror, sororis, F. -- sister --
+tempus, temporis, N. -- time --
+urbs, urbis, F. -- city --
+vox, vocis, F. -- voice --
+aqueductus, aqueductūs, M. -- aqueduct --
+arcus, arcūs, M. -- arch --
+domus, domūs, F. -- home --
+manus, manūs, F. -- hand --
+portus, portūs, M. -- harbor, port --
+senatus, senatūs, M. -- senate --
+dies, diei, M. -- day --
+fides, fidei, F. -- faith --
+res, rei, F. -- thing, matter, situation --
+spes, spei, F. -- hope --
+ab -- by, from --
+ad -- to, towards --
+aequus, aequa, aequum -- even, just, calm --
+altus, alta, altum -- high, deep --
+amicus, amica, amicum - friendly --
+bonus, bona, bonum -- good --
+brevis, brevis, breve -- short --
+clarus, clara, clarum -- clear, famous --
+cum -- with --
+cur -- why? --
+de -- about, from --
+defessus, defessa, defessum -- tired --
+ex -- out of, from --
+et - and --
+fessus, fessa, fessum -- tired --
+fortis, fortis, forte -- brave, strong --
+ignavus, ignava, ignavum -- lazy, cowardly --
+in -- in, on, into, against --
+iratus, irata, iratum -- angry --
+latus, lata, latum -- wide --
+longus, longa, longum - long --
+magnus, magna, magnum -- great, large --
+malus, mala, malum -- bad --
+multus, multa, multum -- much, many --
+noster, nostra, nostrum -- our --
+novus, nova, novum -- new --
+parvus, parva, parvum -- small --
+per -- through, along --
+perterritus, perterrita, perterritum -- frightened (adjective) --
+prope -- near --
+pulcher, pulchra, pulchrum -- beautiful, handsome --
+que -- and --
+quid -- what? --
+quis -- who? --
+saepe -- often --
+sed -- but --
+semper -- always --
+sine -- without --
+sub -- under --
+ubi -- when, where --
